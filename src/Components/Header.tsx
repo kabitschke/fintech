@@ -1,4 +1,5 @@
 import { useData } from "../Context/DataContext";
+import DateRange from "./DateRange";
 
 const Header = () => {
 
@@ -7,8 +8,7 @@ const Header = () => {
 
   return (
     <div>
-      <div>{loading ? 'carregando...' : ''}</div>
-      <h1>Header</h1>
+      <DateRange />
 
 
     </div>
