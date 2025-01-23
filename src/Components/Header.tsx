@@ -1,5 +1,6 @@
 import { useData } from "../Context/DataContext";
 import DateRange from "./DateRange";
+import Meses from "./Meses";
 
 const Header = () => {
 
@@ -7,11 +8,15 @@ const Header = () => {
 
 
   return (
-    <div>
-      <DateRange />
+    <header className="mb">
+      <div className="mb">
+
+        <DateRange />
+      </div>
+      <Meses />
 
 
-    </div>
+    </header>
   );
 }
 
