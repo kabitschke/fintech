@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: sans-serif;
-  margin: 0;
+  margin: 0px;
   color: var(--color-2);
   background: var(--color-4);
 }
@@ -46,7 +46,6 @@ ul {
 }
 
 .flex>* {
-  /* qualquer filho direto */
   flex: 1;
 }
 
@@ -79,10 +78,9 @@ ul {
   padding: var(--gap);
   gap: var(--gap);
   grid-template-columns: 240px auto;
-  /*Sidenav 240px*/
 }
 
-/*Sidenav*/
+/* sidenav */
 
 .sidenav li {
   display: flex;
@@ -112,16 +110,15 @@ ul {
   background: var(--color-3);
 }
 
-/*DateRange*/
+/* daterange */
+
 .daterange {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--gap);
 }
 
-
-
-/* Resumo*/
+/* resumo */
 
 .resumo {
   font-size: 1.5rem;
@@ -134,7 +131,7 @@ ul {
   color: var(--color-1);
 }
 
-/*Vendas*/
+/* venda */
 
 .venda {
   display: grid;
