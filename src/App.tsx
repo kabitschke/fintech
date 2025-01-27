@@ -20,7 +20,7 @@ function App() {
             <Header />
             <Routes>
               <Route path='/' element={<Resumo />} />
-              <Route path='/' element={<Vendas />} />
+              <Route path='/vendas' element={<Vendas />} />
               <Route path='/vendas/:id' element={<Venda />} />
 
             </Routes>
